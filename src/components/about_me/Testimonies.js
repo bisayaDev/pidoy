@@ -9,6 +9,7 @@ const Testimonies = props => {
             <CardTestimony image={reviewMagen} goTo='' personName='Magen Hyatt' jobPosition={
                 <>
                     <p>Marketing Operations Director</p>
+                    
                 </>
             }>
                 
