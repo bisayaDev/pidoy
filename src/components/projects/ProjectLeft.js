@@ -5,7 +5,7 @@ import TechStack from '../UI/TechStack';
 
 const ProjectLeft = props => {
     return (
-        <div class="mt-32 flex flex-wrap gap-6 max-w-5xl mx-auto px-2 text-white">
+        <div class="mt-10 flex flex-wrap gap-6 max-w-5xl mx-auto px-2 text-white">
             <div class="w-full md:w-9/12 md:mx-auto lg:max-w-xl">
                 <H3Header>
                     {props.projectTitle}

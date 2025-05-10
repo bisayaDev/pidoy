@@ -5,7 +5,7 @@ import TechStack from '../UI/TechStack';
 
 const ProjectRight = props => {
     return (
-        <div class="mt-32 flex flex-wrap-reverse gap-6 max-w-5xl mx-auto px-2 text-white">
+        <div class="mt-10 flex flex-wrap-reverse gap-6 max-w-5xl mx-auto px-2 text-white">
             <div data-theme="mytheme" class="max-w-sm justify-self-end mx-auto">
                 <div class="w-6/12 mx-auto lg:mx-0 lg:ml-auto lg:w-8/12 pt-14">
                     {/* <ButtonLight goTo={props.buttonWatchItLive} target='_blank' rel="noreferrer">Watch it live</ButtonLight>

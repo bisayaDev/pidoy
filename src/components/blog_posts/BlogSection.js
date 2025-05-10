@@ -7,35 +7,35 @@ import SectionHeader from '../UI/SectionHeader';
 const BlogSection = props => {
     return (
         <section id="section-blog-posts">
-            <SectionHeader text={'Why High-Ticket Clients Work With Me'} headerGradientStyle={'header-blog-posts'} class={'mt-24 lg:mt-20'} />
+            <SectionHeader text={'Why High-Ticket Clients Work With Me'} headerGradientStyle={'header-blog-posts'} class={'mt-10 lg:mt-10'} />
             <BlogPostIntro
                 blogTitle={''}
                 bgImage={'bg-blog-post'}
-                linkHashnode={'https://blog.damiandemasi.com/hammering-down-react-basics-with-a-paint-coat-of-material-ui'}
-                linkDevto={'https://dev.to/colocodes/hammering-down-react-basics-with-a-paint-coat-of-material-ui-o0h'}>
+                linkHashnode={''}
+                linkDevto={''}>
                 <ParagraphDark>
                     <p>
                         <ul>
                             <li>
-                                <b>- I think like a CMO, not just a media buyer.</b>
+                                <b>• I think like a CMO, not just a media buyer.</b>
                             </li>
                             <li>
-                                <b>- I write ad copy that sells, not just looks good.</b>
+                                <b>• I write ad copy that sells, not just looks good.</b>
                             </li>
                             <li>
-                                <b>- I bring 10+ years of combined strategy and execution.</b>
+                                <b>• I bring 10+ years of combined strategy and execution.</b>
                             </li>
                             <li>
-                                <b>- I’ve worked with nonprofits, startups, agencies, and global brands.</b>
+                                <b>• I’ve worked with nonprofits, startups, agencies, and global brands.</b>
                             </li>
                             <li>
-                                <b>- I’ve helped clients scale from $0 to $10K/month+ in sales.</b>
+                                <b>• I’ve helped clients scale from $0 to $10K/month+ in sales.</b>
                             </li>
                         </ul>
                     </p>
                 </ParagraphDark>
             </BlogPostIntro>
-            <SectionHeader text={'Let’s Talk ROI'} headerGradientStyle={'header-blog-posts'} class={'mt-24 lg:mt-20'} />
+            <SectionHeader text={'Let’s Talk ROI'} headerGradientStyle={'header-blog-posts'} class={'mt-10 lg:mt-10'} />
             <BlogPostIntro
                 blogTitle={''}
                 bgImage={'bg-blog-post'}
