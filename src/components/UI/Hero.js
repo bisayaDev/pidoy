@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import locationPin from '../../assets/img/locationPin.png';
-import hero1 from '../../assets/img/pidoy.jpeg';
+import hero1 from '../../assets/img/pidoy2.png';
 import resume from '../../assets/pdf/Paul Jhon Buna.pdf';
 import EmailOptions from './EmailOptions';
 import H3Header from '../UI/H3Header';
@@ -51,16 +51,16 @@ const Hero = props => {
     }, [isAnimated1, isAnimated2, isAnimated3]);
 
     const commonClasses = 'inline-block subpixel-antialiased';
-    const commonBigTextClasses = 'text-6xl md:text-8xl lg:text-9xl';
+    const commonBigTextClasses = 'text-6xl md:text-8xl lg:text-8xl';
     const tailwindClassName = `text-3xl md:text-4xl lg:text-5xl ${commonClasses} ${isAnimated1 && 'name-gradient'}`;
     const tailwindClassWeb = `${commonBigTextClasses} ${commonClasses} ${isAnimated2 && 'first-word-gradient'}`;
     const tailwindClassDeveloper = `pb-4 ${commonBigTextClasses} ${commonClasses} ${isAnimated3 && 'second-word-gradient'}`;
 
     return (
         <div class='hero min-h-85vh' id='section-home'>
-            <div class='text-left hero-content items-start'>
+            <div class='text-left hero-content items-start mt-20'>
                 <div>
-                    <img src={hero1} alt='Damian Demasi with a hat in a park on a sunny day.' class='mt-10 hidden lg:block lg:max-w-xs xl:max-w-md rounded-full'/>
+                    <img src={hero1} alt='' class='mt-10 hidden lg:block lg:max-w-xs xl:max-w-md rounded-full'/>
                 </div>
                 <div class='max-w-2xl'>
                     <p class='mb-5'><span><img src={locationPin} class='h-4 inline mb-1 mr-1' alt='Location pin icon' /></span>Canaway, Tibanga, Iligan City, Philippines</p>
