@@ -13,7 +13,7 @@ const AboutMe = props => {
         <div class="mt-32 flex gap-6 max-w-5xl mx-auto text-white px-2 flex-wrap md:flex-nowrap">
             <div data-theme="mytheme" class="mx-auto">
                 <div>
-                    <img src={hero1} alt='Damian Demasi with a hat in a park on a sunny day.' class='max-w-xs rounded-full' />
+                    <img src={hero1} alt='Damian Demasi with a hat in a park on a sunny day.' class='max-w-xs rounded-full' style={{ filter: 'drop-shadow(2px 3px 10px rgba(255, 255, 255, 0.5))' }} />
                 </div>
                 <div class="w-3/5 mx-auto mt-14">
                     <ButtonLight goTo={resume} target='_blank' rel="noreferrer">Get my Resume</ButtonLight>

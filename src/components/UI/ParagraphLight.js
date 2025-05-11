@@ -1,6 +1,6 @@
 const ParagraphLight = props => {
     return (
-        <div data-theme="mytheme" class="text-secondary mb-5">{props.children}</div>
+        <div data-theme="mytheme" class="text-secondary mb-5 mt-10">{props.children}</div>
     );
 };
 

@@ -60,13 +60,13 @@ const Hero = props => {
         <div class='hero min-h-85vh' id='section-home'>
             <div class='text-left hero-content items-start mt-20'>
                 <div>
-                    <img src={hero1} alt='' class='mt-10 hidden lg:block lg:max-w-xs xl:max-w-md rounded-full'/>
+                    <img src={hero1} alt='' class='mt-10 hidden lg:block lg:max-w-xs xl:max-w-md rounded-full' style={{ filter: 'drop-shadow(2px 3px 10px rgba(0, 0, 0, 0.5))' }}/>
                 </div>
                 <div class='max-w-2xl'>
                     <p class='mb-5'><span><img src={locationPin} class='h-4 inline mb-1 mr-1' alt='Location pin icon' /></span>Canaway, Tibanga, Iligan City, Philippines</p>
                     <h1 class='mb-5 font-bold font-poppins'>
                         <span class={tailwindClassName}>Paul Jhon Buna,</span><br />
-                        <span class={`${tailwindClassWeb} md:text-3xl lg:text-3xl pb-5`}>Google Ads</span><br />
+                        <span class={`${tailwindClassWeb} md:text-3xl lg:text-3xl pb-5 mt-10`}>Google Ads</span><br />
                         <span class={tailwindClassDeveloper}>Specialist</span>
                     </h1>
                     <p class='my-8 md:my-16 text-neutral xl:leading-loose'>
